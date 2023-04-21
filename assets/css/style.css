@@ -1,13 +1,17 @@
+/* This is styling to all the elemnents on the page */
+
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
+/* The body element color is #d9dcd6 */
 body {
     background-color: #d9dcd6;
 }
 
+/* This gives the header element its style. */
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -15,15 +19,18 @@ header {
     color: #ffffff;
 }
 
+/* The header element has a h1 tag with the following styling */
 header h1 {
     display: inline-block;
     font-size: 48px;
 }
 
+/* header element includes a class element of seo with its styling */
 header h1 .seo {
     color: #d9dcd6;
 }
 
+/* The header and nav element have the following styling */
 header nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -32,24 +39,29 @@ header nav {
     font-size: 20px;
 }
 
+/* In the header element has an unordered list of elements with no list style */
 header nav ul {
     list-style-type: none;
 }
 
+/* The header nav ul and li elements have a inline-block styling with a margin left of 25px */
 header nav ul li {
     display: inline-block;
     margin-left: 25px;
 }
 
+/* a element contains a specific color and no text-decoration */
 a {
     color: #ffffff;
     text-decoration: none;
 }
 
+/* Paragraph element has font-size of 16px */
 p {
     font-size: 16px;
 }
 
+/* Hero id has specific styling below */
 .hero {
     height: 800px;
     width: 100%;
@@ -59,23 +71,26 @@ p {
     background-position: center;
 }
 
+/* float-left id has float to the left and margin-right of 25px */
 .float-left {
     float: left;
     margin-right: 25px;
 }
 
+/* float-right id has float to the right and margin-left of 25px */
 .float-right {
     float: right;
     margin-left: 25px;
 }
 
+/* content id has a width of 75%, display style of inline-block and margin-left of 20px */
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
-
+/* benefits id has the following styling */
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -88,12 +103,14 @@ p {
     color: white;
 }
 
+/* benefit class has styling of margin-bottom of 32px and color #fffff */
 .benefit {
 margin-bottom: 32px;
 color: #ffffff;
 }
 
-/*
+/* Consolidated into the .benefit class 
+
 .benefit-lead {
     margin-bottom: 32px;
     color: #ffffff;
@@ -110,12 +127,13 @@ color: #ffffff;
 }
 */
 
+/* benefit h3 class has a margin-bottom of 10px and text-align as center */
 .benefit h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
-/*
+/* Consolidation into .benefit h3 
 }
 .benefit-lead h3 {
     margin-bottom: 10px;
@@ -133,13 +151,14 @@ color: #ffffff;
 }
 */
 
+/* .benefit class has images set as display: block, margin at 10px auto and max-width at 150px */
 .benefit img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
-/*
+/* Consolidated all images to .benefit img class
 .benefit-lead img {
     display: block;
     margin: 10px auto;
@@ -160,6 +179,7 @@ color: #ffffff;
 
 */
 
+/* .contents class contains the following styling. */
 .contents {
     margin-bottom: 20px;
     padding: 50px;
@@ -168,7 +188,8 @@ color: #ffffff;
     background-color: #0072bb;
     color: #ffffff;
 }
-/*
+/* Consolidated into .contents class 
+
 .search-engine-optimization {
     margin-bottom: 20px;
     padding: 50px;
@@ -197,11 +218,12 @@ color: #ffffff;
 }
 */
 
+/* .contents img contains max-height of 200px */
 .contents img {
     max-height: 200px;
 }
 
-/*
+/* Consolidated these images to .contents class
 .search-engine-optimization img {
     max-height: 200px;
 }
@@ -215,13 +237,14 @@ color: #ffffff;
 }
 */
 
+/* .contents h2 class contains margin-bottom at 20px and font-size of 36px */
 .contents h2 {
     margin-bottom: 20px;
     font-size: 36px;
 
 }
 
-/*
+/* Consolidated these classes and h2 into .contents h2 class
 .search-engine-optimization h2 {
     margin-bottom: 20px;
     font-size: 36px;
@@ -238,6 +261,7 @@ color: #ffffff;
 }
 */
 
+/* class foot has padding of 30px with specific font-family and text aligned in center */
 .footer {
     padding: 30px;
     clear: both;
@@ -245,6 +269,7 @@ color: #ffffff;
     text-align: center;
 }
 
+/* footer h2 class has font-size of 20px */
 .footer h2 {
     font-size: 20px;
 }
