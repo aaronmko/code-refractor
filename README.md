@@ -34,8 +34,9 @@ THEN I find a concise, descriptive title
 
 ## Mock-Up
 
-* The following image shows the web application's appearance and functionality: https://aaronmko.github.io/first-goalie/
+* The following image shows the web application's appearance and functionality:
 
+![My Image](./assets/images/Code%20Refractor.png)
 
 ## Submission
 
