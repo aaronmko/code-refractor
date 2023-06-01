@@ -100,7 +100,7 @@ p {
     height: 100%;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #2589bd;
-    color: white;
+    color: #ffffff;
 }
 
 /* benefit class has styling of margin-bottom of 32px and color #fffff */
@@ -223,7 +223,7 @@ color: #ffffff;
     max-height: 200px;
 }
 
-/* Consolidated these images to .contents class
+/* Consolidated these images to .contents img class
 .search-engine-optimization img {
     max-height: 200px;
 }
