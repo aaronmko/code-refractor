@@ -1,4 +1,4 @@
-/* This is styling to all the elemnents on the page */
+
 
 * {
     box-sizing: border-box;
@@ -6,12 +6,12 @@
     margin: 0;
 }
 
-/* The body element color is #d9dcd6 */
+/* Gives the body a background color of #d0dcd6*/
 body {
     background-color: #d9dcd6;
 }
 
-/* This gives the header element its style. */
+/* Adds these styling to the header: padding of 20px and a font-family of 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif, background color of 2a607c and text color of white */
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -19,18 +19,18 @@ header {
     color: #ffffff;
 }
 
-/* The header element has a h1 tag with the following styling */
+/* header and h1 element are displayed inline with a font size of 48px */
 header h1 {
     display: inline-block;
     font-size: 48px;
 }
 
-/* header element includes a class element of seo with its styling */
+/* header element includes a class element of seo with the text color as #d9dcd6 */
 header h1 .seo {
     color: #d9dcd6;
 }
 
-/* The header and nav element have the following styling */
+/* The header and nav element have padding-top at 15px, margin-right at 20px, the navigation buttons are push to the right of the screen, with a font-family of Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif at 20px in text size */
 header nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -50,7 +50,7 @@ header nav ul li {
     margin-left: 25px;
 }
 
-/* a element contains a specific color and no text-decoration */
+/* a element contains text color with #ffffff and no additional decorations added to it */
 a {
     color: #ffffff;
     text-decoration: none;
@@ -61,7 +61,7 @@ p {
     font-size: 16px;
 }
 
-/* Hero id has specific styling below */
+/* Hero id has a image height of 800px, 100% width of screen, and 25px margin at the bottom. It is grabbing the image from the images folder in the assets folder. */
 .hero {
     height: 800px;
     width: 100%;
@@ -90,7 +90,7 @@ p {
     margin-left: 20px;
 }
 
-/* benefits id has the following styling */
+/* benefits id has a background color of #2589bd and text color of #ffffff. Font-family being used is 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif */
 .benefits {
     margin-right: 20px;
     padding: 20px;
